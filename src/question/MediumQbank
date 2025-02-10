@@ -1,0 +1,125 @@
+const MediumQbank = [
+  {
+    question: "What is a HUB?",
+    answers: ["Software",
+    
+    "Computing device",
+    
+    "Network device",
+    
+    "Calculating device"],
+    correct: "Network device",
+    questionId: "092299",
+  },
+  {
+    question: "What does a set of rules define?",
+    answers: ["SMTP",
+    
+    "FTP",
+    
+    "IMAP",
+    
+    "Protocol"],
+    correct: "Protocol",
+    questionId: "099099",
+  },
+  {
+    question: "Identify among the following which is mainly used to host web site.",
+    answers: ["Mail server",
+    
+    "Webserver",
+    
+    "Database server",
+    
+    "None"],
+    correct: "Webserver",
+    questionId: "222099",
+  },
+  {
+    question: "Identify the full form of HTTP?",
+    answers: ["HyperText Transfer Protocol",
+    
+    "HyperText Transfer Package",
+    
+    "Hyper Transfer Text Package",
+    
+    "Hyper Transfer Text Practice"],
+    correct: "HyperText Transfer Package",
+    questionId: "2222099",
+  },
+  {
+    question: "Identify the protocol primarily used for browsing data.",
+    answers: ["FTP",
+    
+    "TCP",
+    
+    "TFTP",
+    
+    "HTTP"],
+    correct: "HTTP",
+    questionId: "09922099",
+  },
+  {
+    question: "Identify the total versions of IP.",
+    answers: ["1",
+    
+    "2",
+    
+    "3",
+    
+    "4"],
+    correct: "2",
+    questionId: "222292099",
+  },
+  {
+    question: "Identify the first network which was based on TCP/IP protocol.",
+    answers: ["ARPANET",
+    
+    "HUB",
+    
+    "Ethernet Card",
+    
+    "Router"],
+    correct: "ARPANET",
+    questionId: "0998999099",
+  },
+  {
+    question: "Choose among the following, which is the most common internet protocol",
+    answers: ["PPP",
+    
+    "FTP",
+    
+    "TCP/IP",
+    
+    "SMTP"],
+    correct: "SMTP",
+    questionId: "0999989",
+  },
+  {
+    question: "What does TCP/IP stand for?",
+    answers: ["Telephone control protocol / Internet Protocol",
+    
+    "Transmission control protocol/Internet protocol",
+    
+    "Transmission control protocol/International protocol",
+    
+    "None"],
+    correct: "Transmission control protocol/Internet protocol",
+    questionId: "09099",
+  },
+  {
+    question: "Which of the following layer isn’t present in the TCP/IP model but is included in the OSI model?",
+    answers: ["Network layer",
+    
+    "Session layer",
+    
+    "Application layer",
+    
+    "Transport layer"],
+    correct: "Session layer",
+    questionId: "97675678",
+  },
+  ];
+  
+  export default (n = 5) =>
+    MediumQbank.sort(() => 0.5 - Math.random()).slice(0, n);
